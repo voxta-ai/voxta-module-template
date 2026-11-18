@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net11.0": {
+      "Voxta.Sdk.Modules": {
+        "type": "Direct",
+        "requested": "[1.13.1, )",
+        "resolved": "1.13.1",
+        "contentHash": "Sgg9qfBjDG4y6WTKn50t0KKQIxelBTE3z6Bp11bBJQh7i/zNSwWodHpgxLrbm6q61JsD4oShk4v/sLp/FNChUw==",
+        "dependencies": {
+          "Voxta.Abstractions": "1.13.1",
+          "Voxta.Common": "1.13.1",
+          "Voxta.Model": "1.13.1"
+        }
+      },
+      "Microsoft.Extensions.Configuration": {
+        "type": "Transitive",
+        "resolved": "11.0.0",
+        "contentHash": "VQS/GkFU9oLQmXZv0AR/zluF0YAbEAoUQ5aYMqcRc2TWeKa6m2AjInAOnDhCcoWI5a6LQUCzTcl8B3DZZaPZLg=="
+      },
+      "Microsoft.Extensions.Configuration.Binder": {
+        "type": "Transitive",
+        "resolved": "11.0.0",
+        "contentHash": "3eoaKF4Stat1PSN+KFwqmy04sM9DwGuHM1o1lHwuNFM/TqwQ+PCIvaQHS4lcT3kJl5rwvDK4w/rIlR0wc024eQ==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "11.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection": {
+        "type": "Transitive",
+        "resolved": "11.0.0",
+        "contentHash": "KygQMITBDDPXw7+AAgdwQvVAaTXuDsc1iCAuvhO73ERxKX+d92cdbgZmpoYF7DIUq2hfs/yO2KD87uIreRy3MA=="
+      },
+      "Microsoft.Extensions.Diagnostics": {
+        "type": "Transitive",
+        "resolved": "11.0.0",
+        "contentHash": "tX8piU+KbYHXIf5F70leczIWwtTkPKhyjRqjbo6D2uTA1PwrhcMD+Ls7rzqSMkx1U3osyrD4/kCrZeF13Lkgnw==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "11.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "11.0.0"
+        }
+      },
+      "Microsoft.Extensions.Http": {
+        "type": "Transitive",
+        "resolved": "11.0.0",
+        "contentHash": "Pa5xJYtE5weFzv8sRwei1yvqCc05PareJABDtUSigzyj0xmrnG7ZU5VBy0hf5tgh7HN3/psGiOQouw5PLaQD8w==",
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics": "11.0.0",
+          "Microsoft.Extensions.Logging": "11.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging": {
+        "type": "Transitive",
+        "resolved": "11.0.0",
+        "contentHash": "zsse8MOgo0bj2KAEsSkg9WtNAfZbHbTlGeqfhy5PGozomM3zQM0XzumSQzQ0451IWNSJWLqYaSIQEpCi2j1sCA==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "11.0.0"
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions": {
+        "type": "Transitive",
+        "resolved": "11.0.0",
+        "contentHash": "s4JrxDPwxk8pE6LFVj+M5TrDHxOVIoCnQBy5lexs5uAYeggPYwAc/pSDNgVuZN14pCmZGCInygI/2ylCdLYShw==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "11.0.0"
+        }
+      },
+      "Profanity.Detector": {
+        "type": "Transitive",
+        "resolved": "0.1.8",
+        "contentHash": "4rfonJb74vncmdyobz71Wm0N5YeKtReOMIr0P8z/IRP9iJsVcoRfFFfgANopaFjmHI1lZyZL+ps8AKwF1rNjHg=="
+      },
+      "System.Text.Json": {
+        "type": "Transitive",
+        "resolved": "8.0.6",
+        "contentHash": "BvSpVBsVN9b+Y+wONbvJOHd1HjXQf33+XiC28ZMOwRsYb42mz3Q8YHnpTSwpwJLqYCMqM+0UUVC3V+pi25XfkQ=="
+      },
+      "Voxta.Abstractions": {
+        "type": "Transitive",
+        "resolved": "1.13.1",
+        "contentHash": "PlQs7KTflAm0BJo3BEiH7ennNkvv5ZxPFcA1xZXotAEK5KW/H39/e3CjigvuNy8dn1rsrTszayGzA402b+Q+nA==",
+        "dependencies": {
+          "Profanity.Detector": "0.1.8",
+          "Voxta.Common": "1.13.1",
+          "Voxta.Model": "1.13.1"
+        }
+      },
+      "Voxta.Common": {
+        "type": "Transitive",
+        "resolved": "1.13.1",
+        "contentHash": "wIdOI1fgc3yulv2WwYpnIggD+/1pWIKbWIvtK4gROQuTclcM4dQekDu9RLZszgLIgtg8jzocdScvBJKTbxD0Ag==",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "11.0.0"
+        }
+      },
+      "Voxta.Model": {
+        "type": "Transitive",
+        "resolved": "1.13.1",
+        "contentHash": "s8sDIuhRUB/K61jIBjm3xRo++pQOLH7zP3M1K8fqeDXsUJkBawyGGnyV0iMMb9tcf/fRP4lwJRrg0Rqx3b+qmg==",
+        "dependencies": {
+          "System.Text.Json": "[8.0.6, 9.0.0)"
+        }
+      }
+    }
+  }
+}

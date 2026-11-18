@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="36" viewBox="0 0 162 36" role="img" aria-label="Install in Voxta">
+  <title>Install in Voxta</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26262e"/>
+      <stop offset="1" stop-color="#101014"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="161" height="35" rx="8" fill="url(#bg)" stroke="#ffffff" stroke-opacity="0.16"/>
+  <svg x="15" y="9.8" width="24" height="16.4" viewBox="88 200 612 419">
+    <path fill="#fff" d="M88 212C320 200 590 240 700 435C600 345 420 290 168 305C172 390 180 470 190 540C125 450 98 330 88 212Z"/>
+    <path fill="#fff" fill-rule="evenodd" d="M432 365a127 127 0 1 1 0 254a127 127 0 1 1 0-254Zm0 72a55 55 0 1 0 0 110a55 55 0 1 0 0-110Z"/>
+  </svg>
+  <text x="48" y="23" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Install in Voxta</text>
+</svg>
